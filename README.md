@@ -4,7 +4,7 @@ A Ruby web scraper built from scratch to collect full product data from Scrapeme
 
 ---
 
-## 🔍 What It Does
+## What It Does
 
 This scraper uses Ruby, HTTParty, Nokogiri, and CSV to:
 
@@ -18,7 +18,7 @@ This scraper uses Ruby, HTTParty, Nokogiri, and CSV to:
 
 ---
 
-## 💡 Why I Built This
+## Why I Built This
 
 To learn and prove I can:
 
@@ -30,7 +30,7 @@ To learn and prove I can:
 
 ---
 
-## 🧪 Challenges I Encountered & How I Solved Them
+## Challenges I Encountered & How I Solved Them
 
 ### 1. Page 1 URL Structure  
 **Problem:** Page 1 didn’t follow the `/page/1/` pattern like other pages.  
@@ -80,7 +80,7 @@ To learn and prove I can:
 
 ---
 
-## 🔁 Clean Loop Strategy Learned
+## Clean Loop Strategy Learned
 
 1. Scrape current page  
 2. Collect clean product data  
@@ -91,18 +91,18 @@ To learn and prove I can:
 
 ---
 
-## ✅ What's Working Right Now
+## What's Working Right Now
 
-- ✅ Full product data (name, price, image, URL)
-- ✅ Pagination support
-- ✅ JSON & CSV output
-- ✅ Auto folder creation
-- ✅ Clean error handling
-- ✅ Modular code ready for upgrades
+-  Full product data (name, price, image, URL)
+-  Pagination support
+-  JSON & CSV output
+-  Auto folder creation
+-  Clean error handling
+-  Modular code ready for upgrades
 
 ---
 
-## 🚀 Future Improvements
+##  Future Improvements
 
 - Add User-Agent rotation  
 - Add Proxy support  
@@ -112,7 +112,7 @@ To learn and prove I can:
 
 ---
 
-## ⚙️ How to Run It Locally
+## ⚙ How to Run It Locally
 
 ```bash
 git clone https://github.com/ruarijupp/serpapi-style-price-scraper.git
