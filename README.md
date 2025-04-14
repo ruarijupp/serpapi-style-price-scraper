@@ -1,6 +1,8 @@
 serpapi-style-price-scraper
+
 A Ruby web scraper built from scratch to collect product data from Scrapeme.live — built in the style of a real SerpApi junior dev project.
 What it does
+
 This scraper uses Ruby, HTTParty, and Nokogiri to:
 
 Visit every page of products on https://scrapeme.live/shop/
