@@ -1,0 +1,30 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    bigdecimal (3.1.9)
+    csv (3.3.4)
+    httparty (0.23.1)
+      csv
+      mini_mime (>= 1.0.0)
+      multi_xml (>= 0.5.2)
+    mini_mime (1.1.5)
+    mini_portile2 (2.8.8)
+    multi_xml (0.7.1)
+      bigdecimal (~> 3.1)
+    nokogiri (1.18.7)
+      mini_portile2 (~> 2.8.2)
+      racc (~> 1.4)
+    nokogiri (1.18.7-arm64-darwin)
+      racc (~> 1.4)
+    racc (1.8.1)
+
+PLATFORMS
+  arm64-darwin-23
+  ruby
+
+DEPENDENCIES
+  httparty
+  nokogiri
+
+BUNDLED WITH
+   2.6.2
